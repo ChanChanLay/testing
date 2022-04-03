@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="WF_test.aspx" />
+    <Content Include="WF_test1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="WF_test.aspx.designer.cs">
       <DependentUpon>WF_test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WF_test1.aspx.cs">
+      <DependentUpon>WF_test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WF_test1.aspx.designer.cs">
+      <DependentUpon>WF_test1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
