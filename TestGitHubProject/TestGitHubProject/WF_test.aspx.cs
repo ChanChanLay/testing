@@ -13,5 +13,10 @@ namespace TestGitHubProject
         {
 
         }
+
+        protected void BT_test_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WF_test1.aspx");
+        }
     }
 }

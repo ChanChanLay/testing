@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <h1>hello world</h1>
+            <asp:Button ID="BT_test" runat="server" Text="Button" OnClick="BT_test_Click" />
         </div>
     </form>
 </body>
