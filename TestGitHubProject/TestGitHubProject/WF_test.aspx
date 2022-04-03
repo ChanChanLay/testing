@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body>
+<body style="background-color:skyblue;">
     <form id="form1" runat="server">
         <div>
             <h1>hello world</h1>
